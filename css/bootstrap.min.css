@@ -18,7 +18,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #e88f2a;
+  --bs-primary: #2aace8;
   --bs-secondary: #faf3eb;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -34,7 +34,7 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --primary: #E88F2A;
+  --primary: #ECA032;;
   --secondary: #FAF3EB;
   --light: #FFFFFF;
   --dark: #2B2825;
@@ -2553,8 +2553,8 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #000;
-  background-color: #e88f2a;
-  border-color: #e88f2a;
+  background-color: #ECA032;
+  border-color: #ECA032;
 }
 .btn-primary:hover {
   color: #000;
@@ -6829,10 +6829,10 @@ fieldset:disabled .btn {
   color: inherit !important;
 }
 .bg-primary {
-  background-color: #e88f2a !important;
+  background-color: var(--primary) !important;
 }
 .bg-secondary {
-  background-color: #faf3eb !important;
+  background-color: var(--secondary) !important;
 }
 .bg-success {
   background-color: #198754 !important;
@@ -10068,7 +10068,7 @@ h6,
 }
 
 .btn-primary {
-    color: #FFFFFF;
+    color: var(--bs-white);
 }
 
 .border-inner {
